@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
@@ -13,10 +13,11 @@
 </head>
 <body>
   <nav>
-    
+      
+       <?php include "php/navbar.php";?>
   </nav>
 	<section>
-
+   
 	</section>
     <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
