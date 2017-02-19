@@ -8,6 +8,8 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 	<head>
 		<title>Formulario de Registro</title>
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+		
+	  <input name="nomPag" id="nomPag" type="hidden" value="cartas" />
 	</head>
 	<body>
 	<?php include "navbar.php"; ?>
@@ -44,7 +46,6 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
   <?php include "footer.php";?>
   </footer>
 
-	  <input name="nomPag" id="nomPag" type="hidden" value="cartas" />
-    <script src="../js/ubicacion.js" type="text/javascript"></script>
+    
 		<script src="../js/valida_registro.js"></script>
 </html>

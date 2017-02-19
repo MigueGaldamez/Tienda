@@ -8,15 +8,16 @@
   <link href="css/icons.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/png" href="!#" />
+   <input name="nomPag" id="nomPag" type="hidden" value="index" />
 </head>
 
 <body>
 <header>
-<div class="navbar-fixed">
-<nav>
+
+
    <?php include "php/navbar.php";?>
-</nav>
-</div>
+
+
 </header>
 
 
@@ -27,6 +28,8 @@
   <?php include "php/footer.php";?>
   </footer>
 
+     
+      <script src="js/ubicacion.js" type="text/javascript"></script>
       <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript" src="js/pgwslider.min.js"></script>

@@ -9,14 +9,15 @@
   <link href="../css/icons.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="../image/png" href="!#" />
+    <input name="nomPag" id="nomPag" type="hidden" value="contactos" />
     
       
 </head>
 <body>
-  <nav>
+  
       
        <?php include "navbar.php";?>
-  </nav>
+  
 
 <div class="container">
     <h1 class="left-aling">Contáctanos</h1>
@@ -50,8 +51,46 @@
         <!-- Promo Content 3 goes here -->
             <div class="card">
             <div class="card-image">
-              <img src="images/sample-1.jpg">
-              <span class="card-title">Card Title</span>
+              <img src="../img/faq.png">
+              <span class="card-title black">Preguntas frecuentes &nbsp &nbsp</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light light-blue"><i class="material-icons">trending_flat</i></a>
+            </div>
+            
+          </div>
+      </div>
+
+  </div>
+
+    <div class="row">
+
+      <div class="col s4">
+        <!-- Promo Content 1 goes here -->
+          <div class="card">
+            <div class="card-image">
+              <img src="../img/mensaje.png">
+              <span class="card-title black">Sugerencias y reclamos</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light light-blue"><i class="material-icons">trending_flat</i></a>
+            </div>
+            
+          </div>
+      </div>
+      <div class="col s4">
+        <!-- Promo Content 2 goes here <--></-->
+            <div class="card">
+            <div class="card-image">
+              <img src="../img/flag.png">
+              <span class="card-title black">Ventas &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  </span>
+              <a class="btn-floating halfway-fab waves-effect waves-light light-blue"><i class="material-icons">trending_flat</i></a>
+            </div>
+           
+          </div>
+      </div>
+      <div class="col s4">
+        <!-- Promo Content 3 goes here -->
+            <div class="card">
+            <div class="card-image">
+              <img src="../img/faq.png">
+              <span class="card-title black">Preguntas frecuentes &nbsp &nbsp</span>
               <a class="btn-floating halfway-fab waves-effect waves-light light-blue"><i class="material-icons">trending_flat</i></a>
             </div>
             

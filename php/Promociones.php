@@ -13,10 +13,10 @@
       
 </head>
 <body>
-  <nav>
+  
       
        <?php include "navbar.php";?>
-  </nav>
+  
 
   <div class="sliderlist">
    
