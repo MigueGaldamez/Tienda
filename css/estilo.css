@@ -64,6 +64,16 @@ a.brand-logo img
   margin-right: auto !important;
 
 }
+.sliderlist{
+  position: relative;
+
+  height: 575px;
+  width: 88%;
+  margin: 20;
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+}
 .slider .slides {
   
   margin: 0;
@@ -129,4 +139,7 @@ a.brand-logo img
 		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
 		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 	}
+
+
+ 
 

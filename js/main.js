@@ -8,7 +8,14 @@ $( document ).ready(function(){
       $('.slider').slider({ });
       $(".dropdown-button").dropdown({hover:true,belowOrigin:true}) ;
       $('.carousel.carousel-slider').carousel({fullWidth:true});
+     
+      $('.pgwSlider').pgwSlider({
+            
+      });
       
-
+	
       
+});
+$(window).load(function() {
+	$('.blueberry').blueberry();
 });
