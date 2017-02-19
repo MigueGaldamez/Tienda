@@ -43,5 +43,8 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 	  <footer>
   <?php include "footer.php";?>
   </footer>
+
+	  <input name="nomPag" id="nomPag" type="hidden" value="cartas" />
+    <script src="../js/ubicacion.js" type="text/javascript"></script>
 		<script src="../js/valida_registro.js"></script>
 </html>
