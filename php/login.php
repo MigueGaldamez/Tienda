@@ -3,6 +3,12 @@
 	<head>
 		<title>Formulario de Registro</title>
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/materialize.min.css">
+		<link rel="stylesheet" href="../css/pgwslider.min.css">
+		<link rel="stylesheet" href="../css/estilo.css">
+		<input name="nomPag" id="nomPag" type="hidden" value="login" />
+		  
+
 	</head>
 	<body>
 	<?php include "navbar.php"; ?>
@@ -26,10 +32,15 @@
 </div>
 </div>
 </div>
+ <?php include "social.php";?>
 		
 	</body>
   <footer>
   <?php include "footer.php";?>
   </footer>
-	<script src="../js/valida_login.js"></script>
+	
+      <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="../js/materialize.min.js"></script>
+      <script type="text/javascript" src="../js/pgwslider.min.js"></script>
+      <script type="text/javascript" src="../js/main.js"></script>
 </html>

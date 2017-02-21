@@ -9,7 +9,7 @@
   <link href="../css/icons.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="../image/png" href="!#" />
-    
+    <input name="nomPag" id="nomPag" type="hidden" value="promociones" />
       
 </head>
 <body>
@@ -29,6 +29,8 @@
         </div>
 
 		<section>
+
+       <?php include "social.php";?>
       <footer>
           <?php include "footer.php";?>
       </footer>

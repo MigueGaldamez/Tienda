@@ -101,7 +101,7 @@
       
               
             
-	
+	 <?php include "social.php";?>
 </div>
 		<section>
       <footer>

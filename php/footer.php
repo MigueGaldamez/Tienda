@@ -1,12 +1,4 @@
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Card Trader</title>
-	<link rel="stylesheet" href="css/materialize.min.css">
-	<link rel="stylesheet" href="css/estilo.css">
-  <link href="css/icons.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="icon" type="image/png" href="!#" />
+
   
 <footer class="page-footer #0288d1 light-blue darken-2">
           <div class="container">

@@ -8,6 +8,8 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 	<head>
 		<title>Formulario de Registro</title>
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/materialize.min.css">
+	<link rel="stylesheet" href="../css/estilo.css">
 		
 	  <input name="nomPag" id="nomPag" type="hidden" value="cartas" />
 	</head>
@@ -40,12 +42,14 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 		</div>
 		</div>
 
-	
+	 <?php include "social.php";?>
 	</body>
-	  <footer>
+	  
   <?php include "footer.php";?>
-  </footer>
 
-    
-		<script src="../js/valida_registro.js"></script>
+      <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="../js/materialize.min.js"></script>
+      <script type="text/javascript" src="../js/pgwslider.min.js"></script>
+      <script type="text/javascript" src="../js/main.js"></script>
+
 </html>
