@@ -179,7 +179,7 @@
 		</ul>
 		<!-- Formulario para nueva cuenta -->
 		<div id='cuenta'>
-			<form>
+			<form role="form" name="registro" action="registro.php" method="post">
 				<div class='row'>
 					<div class='input-field col s12 m6'>
 						<i class='material-icons prefix'>account_box</i>
@@ -192,14 +192,14 @@
 						<label for='apellidos'>Apellidos</label>
 					</div>
 					<div class='input-field col s12 m6'>
+						<i class='material-icons prefix'>account_box</i>
+						<input type='text' id='alias' class='validate'>
+						<label for='apellidos'>Nombre de Usuario</label>
+					</div>
+					<div class='input-field col s12 m6'>
 						<i class='material-icons prefix'>email</i>
 						<input type='email' id='correo' class='validate'>
 						<label for='correo' data-error='Error' data-success='Bien'>Correo</label>
-					</div>
-					<div class='input-field col s12 m6'>
-						<i class='material-icons prefix'>phone</i>
-						<input type='text' id='telefono' class='validate'>
-						<label for='telefono' data-error='Error' data-success='Bien'>Teléfono</label>
 					</div>
 					<div class='input-field col s12 m6'>
 						<i class='material-icons prefix'>security</i>
@@ -210,11 +210,6 @@
 						<i class='material-icons prefix'>security</i>
 						<input type='password' id='clave2' class='validate'>
 						<label for='clave2' data-error='Error' data-success='Bien'>Confirmar contraseña</label>
-					</div>
-					<div class='input-field col s12'>
-						<i class='material-icons prefix'>place</i>
-						<textarea id='textarea1' class='materialize-textarea'></textarea>
-						<label for='textarea1'>Dirección</label>
 					</div>
 				</div>
 				<div class='row center-align'>
