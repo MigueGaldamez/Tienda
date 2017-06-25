@@ -230,14 +230,21 @@
 		<!-- Formulario para iniciar sesión -->
 		<div id='sesion'>
 			<form role="form" name="login" action="login.php" method="post">
+			<div class='row center-align'>
 				<div class="form-group">
-					<input type="text" id="alias" name="alias" placeholder="Nombre de usuario">
+					<div class='input-field col s12 m6 offset-m3'>
+						<input type="text" id="alias" name="alias" placeholder="Nombre de usuario">
+					</div>
 				</div>
 				<div class="form-group">
-					<input type="password" id="clave" name="clave" placeholder="Contraseña">
+					<div class='input-field col s12 m6 offset-m3'>
+						<input type="password" id="clave" name="clave" placeholder="Contraseña">
+					</div>
 				</div>
-
-		  		<button type="submit" class="btn btn-default">Acceder</button>
+		  		<div class='col s12'>
+						<button type='submit' class='btn waves-effect azul'><i class='material-icons'>send</i></button>
+				</div>
+			</div>
 			</form>
 		</div>
 	</div>

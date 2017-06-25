@@ -8,9 +8,8 @@ if(!empty($_POST)){
 			$user_id=null;
 			$sql1= "select * from usuarios where (alias=\"$_POST[alias]\" or correo=\"$_POST[alias]\") and clave=\"$_POST[clave]\" ";
 			$query = $con->query($sql1);
-			print "<script>(\"alert($sql1)\");</script>";
 			while ($r=$query->fetch_array()) {
-				$user_id=$r["id"];
+				$user_id=$r["id_usuario"];
 				break;
 			}
 			if($user_id==null){
