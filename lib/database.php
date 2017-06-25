@@ -2,7 +2,7 @@
 class Database
 {
     private static $connection;
-
+    
     private static function connect()
     {
         $server = "localhost";
@@ -10,6 +10,7 @@ class Database
         $username = "root";
         $password = "";
         $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => "set names utf8");
+        print "Hola con";
         self::$connection = null;
         try
         {

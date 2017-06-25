@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang='es'>
 <head>
@@ -179,40 +180,43 @@
 		</ul>
 		<!-- Formulario para nueva cuenta -->
 		<div id='cuenta'>
-			<form role="form" name="registro" action="registro.php" method="post">
-				<div class='row'>
-					<div class='input-field col s12 m6'>
-						<i class='material-icons prefix'>account_box</i>
-						<input type='text' id='nombres' class='validate'>
-						<label for='nombres'>Nombres</label>
+			<div class='row'>
+				<form role="form" name="registro" action="registro.php" method="post">
+				<div class="form-group">
+					<div class='input-field col s12 m6 offset-m3'>
+						<input type="text" id="nombres" name="nombres" placeholder="Nombres" class='validate'>
 					</div>
-					<div class='input-field col s12 m6'>
-						<i class='material-icons prefix'>account_box</i>
-						<input type='text' id='apellidos' class='validate'>
-						<label for='apellidos'>Apellidos</label>
-					</div>
-					<div class='input-field col s12 m6'>
-						<i class='material-icons prefix'>account_box</i>
-						<input type='text' id='alias' class='validate'>
-						<label for='apellidos'>Nombre de Usuario</label>
-					</div>
-					<div class='input-field col s12 m6'>
-						<i class='material-icons prefix'>email</i>
-						<input type='email' id='correo' class='validate'>
-						<label for='correo' data-error='Error' data-success='Bien'>Correo</label>
-					</div>
-					<div class='input-field col s12 m6'>
-						<i class='material-icons prefix'>security</i>
-						<input type='password' id='clave1' class='validate'>
-						<label for='clave1' data-error='Error' data-success='Bien'>Contraseña</label>
-					</div>
-					<div class='input-field col s12 m6'>
-						<i class='material-icons prefix'>security</i>
-						<input type='password' id='clave2' class='validate'>
-						<label for='clave2' data-error='Error' data-success='Bien'>Confirmar contraseña</label>
+		  		</div>
+				<div class="form-group">
+					<div class='input-field col s12 m6 offset-m3'>
+						<input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class='validate'>
 					</div>
 				</div>
-				<div class='row center-align'>
+				<div class="form-group">
+					<div class='input-field col s12 m6 offset-m3'>
+						<input type="text" id="alias" name="alias" placeholder="Nombre de usuario" class='validate'>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class='input-field col s12 m6 offset-m3'>
+						<input type="email" id="correo" name="correo" placeholder="Correo Electronico" class='validate'>
+					</div>
+				<div>
+				<div class="form-group">
+					<div class='input-field col s12 m6 offset-m3'>	
+						<input type="password" id="clave1" name="clave1" placeholder="Contraseña" class='validate'>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class='input-field col s12 m6 offset-m3'>
+						<input type="password" id="clave2" name="clave2" placeholder="Confirmar Contraseña" class='validate'>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+
+		  		<div class='row center-align'>
 					<div class='col s12'>
 						<input type='checkbox' id='terminos'>
 						<label for='terminos'>Acepto <a href='#terminos'>términos y condiciones</a></label>
@@ -221,26 +225,19 @@
 						<button type='submit' class='btn waves-effect azul'><i class='material-icons'>send</i></button>
 					</div>
 				</div>
-			</form>
+		</form>
 		</div>
 		<!-- Formulario para iniciar sesión -->
 		<div id='sesion'>
-			<form>
-				<div class='row'>
-					<div class='input-field col s12 m6 offset-m3'>
-						<i class='material-icons prefix'>email</i>
-						<input type='email' id='correo' class='validate'>
-						<label for='correo' data-error='Error' data-success='Bien'>Correo</label>
-					</div>
-					<div class='input-field col s12 m6 offset-m3'>
-						<i class='material-icons prefix'>security</i>
-						<input type='password' id='clave' class='validate'>
-						<label for='clave' data-error='Error' data-success='Bien'>Contraseña</label>
-					</div>
+			<form role="form" name="login" action="login.php" method="post">
+				<div class="form-group">
+					<input type="text" id="alias" name="alias" placeholder="Nombre de usuario">
 				</div>
-				<div class='row center-align'>
-					<button type='submit' class='btn waves-effect azul'><i class='material-icons'>send</i></button>
+				<div class="form-group">
+					<input type="password" id="clave" name="clave" placeholder="Contraseña">
 				</div>
+
+		  		<button type="submit" class="btn btn-default">Acceder</button>
 			</form>
 		</div>
 	</div>
